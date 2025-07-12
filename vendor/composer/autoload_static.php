@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit49ae528abda0eea5f4951de410796be4
+class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
 {
     public static $files = array (
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
@@ -108,8 +108,11 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
     );
 
     public static $classMap = array (
+        'App\\Controllers\\AdminController' => __DIR__ . '/../..' . '/app/Controllers/AdminController.php',
+        'App\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Controllers/AuthController.php',
         'App\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/Controllers/BaseController.php',
         'App\\Controllers\\Home' => __DIR__ . '/../..' . '/app/Controllers/Home.php',
+        'App\\Controllers\\LandingPageController' => __DIR__ . '/../..' . '/app/Controllers/LandingPageController.php',
         'CodeIgniter\\API\\ResponseTrait' => __DIR__ . '/..' . '/codeigniter4/framework/system/API/ResponseTrait.php',
         'CodeIgniter\\Autoloader\\Autoloader' => __DIR__ . '/..' . '/codeigniter4/framework/system/Autoloader/Autoloader.php',
         'CodeIgniter\\Autoloader\\FileLocator' => __DIR__ . '/..' . '/codeigniter4/framework/system/Autoloader/FileLocator.php',
@@ -166,6 +169,7 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
         'CodeIgniter\\Commands\\ListCommands' => __DIR__ . '/..' . '/codeigniter4/framework/system/Commands/ListCommands.php',
         'CodeIgniter\\Commands\\Server\\Serve' => __DIR__ . '/..' . '/codeigniter4/framework/system/Commands/Server/Serve.php',
         'CodeIgniter\\Commands\\Translation\\LocalizationFinder' => __DIR__ . '/..' . '/codeigniter4/framework/system/Commands/Translation/LocalizationFinder.php',
+        'CodeIgniter\\Commands\\Translation\\LocalizationSync' => __DIR__ . '/..' . '/codeigniter4/framework/system/Commands/Translation/LocalizationSync.php',
         'CodeIgniter\\Commands\\Utilities\\ConfigCheck' => __DIR__ . '/..' . '/codeigniter4/framework/system/Commands/Utilities/ConfigCheck.php',
         'CodeIgniter\\Commands\\Utilities\\Environment' => __DIR__ . '/..' . '/codeigniter4/framework/system/Commands/Utilities/Environment.php',
         'CodeIgniter\\Commands\\Utilities\\FilterCheck' => __DIR__ . '/..' . '/codeigniter4/framework/system/Commands/Utilities/FilterCheck.php',
@@ -267,6 +271,7 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
         'CodeIgniter\\Database\\SQLite3\\Table' => __DIR__ . '/..' . '/codeigniter4/framework/system/Database/SQLite3/Table.php',
         'CodeIgniter\\Database\\SQLite3\\Utils' => __DIR__ . '/..' . '/codeigniter4/framework/system/Database/SQLite3/Utils.php',
         'CodeIgniter\\Database\\Seeder' => __DIR__ . '/..' . '/codeigniter4/framework/system/Database/Seeder.php',
+        'CodeIgniter\\Database\\TableName' => __DIR__ . '/..' . '/codeigniter4/framework/system/Database/TableName.php',
         'CodeIgniter\\Debug\\BaseExceptionHandler' => __DIR__ . '/..' . '/codeigniter4/framework/system/Debug/BaseExceptionHandler.php',
         'CodeIgniter\\Debug\\ExceptionHandler' => __DIR__ . '/..' . '/codeigniter4/framework/system/Debug/ExceptionHandler.php',
         'CodeIgniter\\Debug\\ExceptionHandlerInterface' => __DIR__ . '/..' . '/codeigniter4/framework/system/Debug/ExceptionHandlerInterface.php',
@@ -308,6 +313,8 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
         'CodeIgniter\\Entity\\Entity' => __DIR__ . '/..' . '/codeigniter4/framework/system/Entity/Entity.php',
         'CodeIgniter\\Entity\\Exceptions\\CastException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Entity/Exceptions/CastException.php',
         'CodeIgniter\\Events\\Events' => __DIR__ . '/..' . '/codeigniter4/framework/system/Events/Events.php',
+        'CodeIgniter\\Exceptions\\BadFunctionCallException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/BadFunctionCallException.php',
+        'CodeIgniter\\Exceptions\\BadMethodCallException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/BadMethodCallException.php',
         'CodeIgniter\\Exceptions\\ConfigException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/ConfigException.php',
         'CodeIgniter\\Exceptions\\CriticalError' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/CriticalError.php',
         'CodeIgniter\\Exceptions\\DebugTraceableTrait' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/DebugTraceableTrait.php',
@@ -316,13 +323,18 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
         'CodeIgniter\\Exceptions\\FrameworkException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/FrameworkException.php',
         'CodeIgniter\\Exceptions\\HTTPExceptionInterface' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/HTTPExceptionInterface.php',
         'CodeIgniter\\Exceptions\\HasExitCodeInterface' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/HasExitCodeInterface.php',
+        'CodeIgniter\\Exceptions\\InvalidArgumentException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/InvalidArgumentException.php',
+        'CodeIgniter\\Exceptions\\LogicException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/LogicException.php',
         'CodeIgniter\\Exceptions\\ModelException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/ModelException.php',
         'CodeIgniter\\Exceptions\\PageNotFoundException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/PageNotFoundException.php',
+        'CodeIgniter\\Exceptions\\RuntimeException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/RuntimeException.php',
         'CodeIgniter\\Exceptions\\TestException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Exceptions/TestException.php',
+        'CodeIgniter\\Files\\Exceptions\\ExceptionInterface' => __DIR__ . '/..' . '/codeigniter4/framework/system/Files/Exceptions/ExceptionInterface.php',
         'CodeIgniter\\Files\\Exceptions\\FileException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Files/Exceptions/FileException.php',
         'CodeIgniter\\Files\\Exceptions\\FileNotFoundException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Files/Exceptions/FileNotFoundException.php',
         'CodeIgniter\\Files\\File' => __DIR__ . '/..' . '/codeigniter4/framework/system/Files/File.php',
         'CodeIgniter\\Files\\FileCollection' => __DIR__ . '/..' . '/codeigniter4/framework/system/Files/FileCollection.php',
+        'CodeIgniter\\Files\\FileSizeUnit' => __DIR__ . '/..' . '/codeigniter4/framework/system/Files/FileSizeUnit.php',
         'CodeIgniter\\Filters\\CSRF' => __DIR__ . '/..' . '/codeigniter4/framework/system/Filters/CSRF.php',
         'CodeIgniter\\Filters\\Cors' => __DIR__ . '/..' . '/codeigniter4/framework/system/Filters/Cors.php',
         'CodeIgniter\\Filters\\DebugToolbar' => __DIR__ . '/..' . '/codeigniter4/framework/system/Filters/DebugToolbar.php',
@@ -346,6 +358,7 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
         'CodeIgniter\\HTTP\\Cors' => __DIR__ . '/..' . '/codeigniter4/framework/system/HTTP/Cors.php',
         'CodeIgniter\\HTTP\\DownloadResponse' => __DIR__ . '/..' . '/codeigniter4/framework/system/HTTP/DownloadResponse.php',
         'CodeIgniter\\HTTP\\Exceptions\\BadRequestException' => __DIR__ . '/..' . '/codeigniter4/framework/system/HTTP/Exceptions/BadRequestException.php',
+        'CodeIgniter\\HTTP\\Exceptions\\ExceptionInterface' => __DIR__ . '/..' . '/codeigniter4/framework/system/HTTP/Exceptions/ExceptionInterface.php',
         'CodeIgniter\\HTTP\\Exceptions\\HTTPException' => __DIR__ . '/..' . '/codeigniter4/framework/system/HTTP/Exceptions/HTTPException.php',
         'CodeIgniter\\HTTP\\Exceptions\\RedirectException' => __DIR__ . '/..' . '/codeigniter4/framework/system/HTTP/Exceptions/RedirectException.php',
         'CodeIgniter\\HTTP\\Files\\FileCollection' => __DIR__ . '/..' . '/codeigniter4/framework/system/HTTP/Files/FileCollection.php',
@@ -413,8 +426,8 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
         'CodeIgniter\\Router\\AutoRouterImproved' => __DIR__ . '/..' . '/codeigniter4/framework/system/Router/AutoRouterImproved.php',
         'CodeIgniter\\Router\\AutoRouterInterface' => __DIR__ . '/..' . '/codeigniter4/framework/system/Router/AutoRouterInterface.php',
         'CodeIgniter\\Router\\DefinedRouteCollector' => __DIR__ . '/..' . '/codeigniter4/framework/system/Router/DefinedRouteCollector.php',
+        'CodeIgniter\\Router\\Exceptions\\ExceptionInterface' => __DIR__ . '/..' . '/codeigniter4/framework/system/Router/Exceptions/ExceptionInterface.php',
         'CodeIgniter\\Router\\Exceptions\\MethodNotFoundException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Router/Exceptions/MethodNotFoundException.php',
-        'CodeIgniter\\Router\\Exceptions\\RedirectException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Router/Exceptions/RedirectException.php',
         'CodeIgniter\\Router\\Exceptions\\RouterException' => __DIR__ . '/..' . '/codeigniter4/framework/system/Router/Exceptions/RouterException.php',
         'CodeIgniter\\Router\\RouteCollection' => __DIR__ . '/..' . '/codeigniter4/framework/system/Router/RouteCollection.php',
         'CodeIgniter\\Router\\RouteCollectionInterface' => __DIR__ . '/..' . '/codeigniter4/framework/system/Router/RouteCollectionInterface.php',
@@ -525,7 +538,6 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
         'Config\\Generators' => __DIR__ . '/../..' . '/app/Config/Generators.php',
         'Config\\Honeypot' => __DIR__ . '/../..' . '/app/Config/Honeypot.php',
         'Config\\Images' => __DIR__ . '/../..' . '/app/Config/Images.php',
-        'Config\\Kint' => __DIR__ . '/../..' . '/app/Config/Kint.php',
         'Config\\Logger' => __DIR__ . '/../..' . '/app/Config/Logger.php',
         'Config\\Migrations' => __DIR__ . '/../..' . '/app/Config/Migrations.php',
         'Config\\Mimes' => __DIR__ . '/../..' . '/app/Config/Mimes.php',
@@ -1075,6 +1087,7 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
         'Faker\\UniqueGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/UniqueGenerator.php',
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/ValidGenerator.php',
         'Laminas\\Escaper\\Escaper' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Escaper.php',
+        'Laminas\\Escaper\\EscaperInterface' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/EscaperInterface.php',
         'Laminas\\Escaper\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Exception/ExceptionInterface.php',
         'Laminas\\Escaper\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Exception/InvalidArgumentException.php',
         'Laminas\\Escaper\\Exception\\RuntimeException' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Exception/RuntimeException.php',
@@ -1686,6 +1699,7 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
         'PHPUnit\\Metadata\\IgnoreDeprecations' => __DIR__ . '/..' . '/phpunit/phpunit/src/Metadata/IgnoreDeprecations.php',
         'PHPUnit\\Metadata\\IgnoreFunctionForCodeCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/Metadata/IgnoreFunctionForCodeCoverage.php',
         'PHPUnit\\Metadata\\IgnoreMethodForCodeCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/Metadata/IgnoreMethodForCodeCoverage.php',
+        'PHPUnit\\Metadata\\InvalidAttributeException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Metadata/Exception/InvalidAttributeException.php',
         'PHPUnit\\Metadata\\InvalidVersionRequirementException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Metadata/Exception/InvalidVersionRequirementException.php',
         'PHPUnit\\Metadata\\Metadata' => __DIR__ . '/..' . '/phpunit/phpunit/src/Metadata/Metadata.php',
         'PHPUnit\\Metadata\\MetadataCollection' => __DIR__ . '/..' . '/phpunit/phpunit/src/Metadata/MetadataCollection.php',
@@ -2611,10 +2625,10 @@ class ComposerStaticInit49ae528abda0eea5f4951de410796be4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit49ae528abda0eea5f4951de410796be4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit49ae528abda0eea5f4951de410796be4::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit49ae528abda0eea5f4951de410796be4::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit49ae528abda0eea5f4951de410796be4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit657ac079313fab046eb8c29fe1d6992b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit657ac079313fab046eb8c29fe1d6992b::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit657ac079313fab046eb8c29fe1d6992b::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit657ac079313fab046eb8c29fe1d6992b::$classMap;
 
         }, null, ClassLoader::class);
     }

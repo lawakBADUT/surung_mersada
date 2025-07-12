@@ -1,26 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Surung Mersada | Beranda</title>
-        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    </head>
-    <body class="sb-nav-fixed">
-        <h1 style="justify-content: center; text-align:center">
-            INI PROFIL DESA
+<section>
+    <header class="header__container" style="margin-top: 10%;">
+        <div class="header__content">
+        <h1 data-aos="fade-right" data-aos-duration="300">
+            Selamat Datang Di <span class="fw-bold"><?= $title ?></span>
+            <br>Kec. Kerajaan, Kab. Pak Pak Bharat
         </h1>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-        <script src="assets/demo/chart-area-demo.js"></script>
-        <script src="assets/demo/chart-bar-demo.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
-        <script src="js/datatables-simple-demo.js"></script>
-    </body>
-</html>
+        <p data-aos="fade-right" data-aos-duration="600" data-aos-delay="300">
+            Ini nanti diisi perkenalan desa <?= $title ?>
+        </p>
+        <form action="/" data-aos="fade-right" data-aos-duration="200" data-aos-delay="100">
+            <div class="input__row">
+            <div class="input__group">
+                <h5>Lokasi</h5>
+                <div>
+                <span><i id="logo-lokasi" class="ri-map-pin-line"></i></span>
+                <p style="font-weight: bold; margin-bottom: 0;">Medan, Sumatera Utara</p>
+                </div>
+            </div>
+            <div class="button__row">
+                <!-- <a target="_blank" href="" type="button" class="btn-a btn-whatsapp">
+                <i class="ri-whatsapp-fill"></i>
+                </a> -->
+                <a target="_blank" href="" type="button" class="btn-a btn-maps">
+                <i class="ri-map-pin-fill"></i>
+                </a>
+            </div>
+            </div>
+        </form>
+        </div>
+    </header>
+</section>
+<!-- SELESAI -->
+
+<section>
+</section>
+
+<section>
+
+</section>
+<!-- VISI DAN MISI -->
+<section>
+    <div class="visi-misi__container">
+        <h1 data-aos="fade-up">VISI</h1>
+        <div class="visi" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom" data-aos-delay="100">
+        <p>Ini Visi</p>
+        </div>
+
+        <h1 class="misi-tittle" data-aos="fade-up" data-aos-delay="200">MISI</h1>
+        <div class="misi" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom" data-aos-delay="200">
+        <ul>
+            <li>Misi 1</li>
+            <li>Misi 2</li>
+            <li>Misi 3</li>
+        </ul>
+        </div>
+    </div>
+</section>
+<!-- END VISI MISI -->
+
+<!-- GALLERY -->
+<section class="gallery">
+    <div class="gallery__container">
+        <div class="background-image"></div>
+        <h1 class="gallery__title" data-aos="fade-up" data-aos-duration="800">Galeri Dokumentasi</h1>
+        <div class="galleryimage">
+        <!-- Foto akan dimuat secara dinamis dengan JavaScript -->
+        </div>
+        <div class="bullets">
+        <!-- Bullet akan dimuat secara dinamis dengan JavaScript -->
+        </div>
+    </div>
+</section>
+<!-- GALLERY END -->

@@ -55,4 +55,11 @@ abstract class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
+
+    protected function renderView($view, $data = [])
+    {
+        echo view('layout/navbar', $data)
+            . view($view, $data)
+            . view('layout/footer', $data);
+    }
 }

@@ -8,8 +8,8 @@ use CodeIgniter\Router\RouteCollection;
 
 $routes->group('', function ($routes) {
     //Routes landing page
-    $routes->get('/', 'LandingPageController::index');
-    $routes->get('/beranda', 'LandingPageController::index');
+    $routes->get('/', 'HomeController::index');
+    $routes->get('/beranda', 'HomeController::index');
 });
 
 
